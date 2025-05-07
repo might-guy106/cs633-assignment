@@ -1,0 +1,160 @@
+==========================================
+SLURM_CLUSTER_NAME = paramrudra
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = iitk
+SLURM_JOB_ID = 23128
+SLURM_JOB_NAME = job7.sh
+SLURM_JOB_NODELIST = rdcn[03-04]
+SLURM_JOB_USER = iitk_15
+SLURM_JOB_UID = 55316
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 18709
+SLURM_SUBMIT_DIR = /home/iitk_15/pankaj_code/V2/jobs
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 96
+SLURM_TASK_PID = 18709
+==========================================
+Job started at: Mon Apr 14 03:56:47 IST 2025
+===============================================
+Job Information:
+===============================================
+SLURM_JOB_ID: 23128
+SLURM_JOB_NODELIST: rdcn[03-04]
+SLURM_NTASKS: 96
+SLURM_NTASKS_PER_NODE: 48
+Current working directory: /home/iitk_15/pankaj_code/V2/jobs
+CPU Core Information:
+rdcn03: 48 cores
+rdcn04: 48 cores
+===============================================
+Running benchmark script...
+Saving configuration...
+
+======================================================================
+Benchmarking ind_IO+isend with 8 processes on data_64_64_64_3.bin
+Decomposition: 2x2x2
+======================================================================
+Iteration 1/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_8.txt
+Iteration 2/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_8.txt
+Iteration 3/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_8.txt
+Iteration 4/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_8.txt
+Iteration 5/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_8.txt
+
+======================================================================
+Benchmarking ind_IO+isend with 16 processes on data_64_64_64_3.bin
+Decomposition: 4x2x2
+======================================================================
+Iteration 1/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_16.txt
+Iteration 2/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_16.txt
+Iteration 3/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_16.txt
+Iteration 4/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_16.txt
+Iteration 5/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_16.txt
+
+======================================================================
+Benchmarking ind_IO+isend with 32 processes on data_64_64_64_3.bin
+Decomposition: 4x4x2
+======================================================================
+Iteration 1/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_32.txt
+Iteration 2/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_32.txt
+Iteration 3/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_32.txt
+Iteration 4/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_32.txt
+Iteration 5/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_32.txt
+
+======================================================================
+Benchmarking ind_IO+isend with 64 processes on data_64_64_64_3.bin
+Decomposition: 4x4x4
+======================================================================
+Iteration 1/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_64.txt
+Iteration 2/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_64.txt
+Iteration 3/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_64.txt
+Iteration 4/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_64.txt
+Iteration 5/5
+Output written to ../results/job7_results/raw/output_data_64_64_64_3_64.txt
+
+======================================================================
+Benchmarking ind_IO+isend with 8 processes on data_64_64_96_7.bin
+Decomposition: 2x2x2
+======================================================================
+Iteration 1/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_8.txt
+Iteration 2/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_8.txt
+Iteration 3/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_8.txt
+Iteration 4/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_8.txt
+Iteration 5/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_8.txt
+
+======================================================================
+Benchmarking ind_IO+isend with 16 processes on data_64_64_96_7.bin
+Decomposition: 4x2x2
+======================================================================
+Iteration 1/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_16.txt
+Iteration 2/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_16.txt
+Iteration 3/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_16.txt
+Iteration 4/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_16.txt
+Iteration 5/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_16.txt
+
+======================================================================
+Benchmarking ind_IO+isend with 32 processes on data_64_64_96_7.bin
+Decomposition: 4x4x2
+======================================================================
+Iteration 1/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_32.txt
+Iteration 2/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_32.txt
+Iteration 3/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_32.txt
+Iteration 4/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_32.txt
+Iteration 5/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_32.txt
+
+======================================================================
+Benchmarking ind_IO+isend with 64 processes on data_64_64_96_7.bin
+Decomposition: 4x4x4
+======================================================================
+Iteration 1/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_64.txt
+Iteration 2/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_64.txt
+Iteration 3/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_64.txt
+Iteration 4/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_64.txt
+Iteration 5/5
+Output written to ../results/job7_results/raw/output_data_64_64_96_7_64.txt
+
+Benchmark completed. Results saved to: ../results/job7_results/benchmark_results.csv
+
+Job completed at: Mon Apr 14 03:58:55 IST 2025
+Total execution time: 00:02:08
