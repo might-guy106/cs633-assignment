@@ -1,6 +1,6 @@
 # 3D Time-Series Data Analysis with MPI
 
-![Project Banner](images/project_banner.png)
+![Project Banner](./assets/banner.png)
 
 ## 📋 Overview
 
